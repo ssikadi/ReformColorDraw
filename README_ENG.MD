@@ -29,7 +29,7 @@ Process an Image:
 4. Open the config file `release\yzanh.DSP.ReformColorDraw.cfg`, replace `C:/asdas` with the absolute path to `out` folder. Mine is:
    
     ```
-    Out_Foloder_Abs_Path = C:\Users\testuser\Download\release\out
+    Out_Foloder_Abs_Path = C:\Users\testuser\Download\ReformColorDraw\release\out
     ```
 5. Copy the config file `yzanh.DSP.ReformColorDraw.cfg` to `BepInEx\config` folder.
 6. Copy the .dll file  `ReformColorDraw.dll` to `BepInEx\plugins`

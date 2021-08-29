@@ -31,7 +31,7 @@
 5. 打开 `release\yzanh.DSP.ReformColorDraw.cfg`, 把 `C:/asdas` 替换成 `out` 文件夹的绝对路径(从C或其他硬盘开始的路径). 例如我的是:
    
     ```
-    Out_Foloder_Abs_Path = C:\Users\testuser\Download\release\out
+    Out_Foloder_Abs_Path = C:\Users\testuser\Download\ReformColorDraw\release\out
     ```
 6. 把`yzanh.DSP.ReformColorDraw.cfg`复制到 `BepInEx\config` 文件夹.
 7. 把mod文件 `ReformColorDraw.dll` 复制到 `BepInEx\plugins`
