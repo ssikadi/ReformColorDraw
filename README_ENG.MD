@@ -20,15 +20,17 @@ Process an Image:
 ---
 1. Put your picture under `release` folder.  For demo purpose, I use [azur.jpg](https://www.pixiv.net/artworks/63067913), which is already inside the folder.
 2. Open Powershell inside `release` folder (Holding `shift`-> rightclick folder->Open Powershell Window here). Run command `.\PhotoProcess.exe [image] [iter_num]`. For example:
+   
     ```shell
     .\PhotoProcess.exe .\azur.jpg 15
     ```
     iter_num specifies the maximum iterations used to run kmeans algorithm. If it runs slow (though it should not), change it to a smaller number (around 5, maybe). This step is where `.net framework 4.6` or later version(s) is required.
 3. Now, 4 files are created inside `release\out` folder. `preview_final.jpg` is what you expect to see inside the game. Please do not modify `out` folder until you finish drawing and uninstall the mod.
 4. Open the config file `release\yzanh.DSP.ReformColorDraw.cfg`, replace `C:/asdas` with the absolute path to `out` folder. Mine is:
-```
-Out_Foloder_Abs_Path = C:\Users\testuser\Download\release\out
-```
+   
+    ```
+    Out_Foloder_Abs_Path = C:\Users\testuser\Download\release\out
+    ```
 5. Copy the config file `yzanh.DSP.ReformColorDraw.cfg` to `BepInEx\config` folder.
 6. Copy the .dll file  `ReformColorDraw.dll` to `BepInEx\plugins`
 

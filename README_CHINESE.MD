@@ -21,18 +21,20 @@
 1. 把准备好的图片放到`release`文件夹. 现在`release`文件夹内已经有 [azur.jpg](https://www.pixiv.net/artworks/63067913)， 我会用它做示范。
 2. 在`release`文件夹内打开 Powershell。(按住 `shift`-> 右击文件夹->打开 Powershell). 
 3. powershell 中输入命令`.\PhotoProcess.exe [image] [iter_num]`. 例如:
+   
     ```shell
     .\PhotoProcess.exe .\azur.jpg 15
     ```
     iter_num（15） 限制 kmeans 算法的循环次数上限. 如果代码一直跑不完，可以把15改小一些（比如说5)。理论上应该很快。
 
-3. `release\out` 文件夹内输出了4个东西. `preview_final.jpg` 是最终预览图。 `xml`文件不用碰。在绘制结束，存档完成，卸载好mod之前请不要删除`out`文件夹内的东西。
-4. 打开 `release\yzanh.DSP.ReformColorDraw.cfg`, 把 `C:/asdas` 替换成 `out` 文件夹的绝对路径(从C或其他硬盘开始的路径). 例如我的是:
-```
-Out_Foloder_Abs_Path = C:\Users\testuser\Download\release\out
-```
-5. 把`yzanh.DSP.ReformColorDraw.cfg`复制到 `BepInEx\config` 文件夹.
-6. 把mod文件 `ReformColorDraw.dll` 复制到 `BepInEx\plugins`
+4. `release\out` 文件夹内输出了4个东西. `preview_final.jpg` 是最终预览图。 `xml`文件不用碰。在绘制结束，存档完成，卸载好mod之前请不要删除`out`文件夹内的东西。
+5. 打开 `release\yzanh.DSP.ReformColorDraw.cfg`, 把 `C:/asdas` 替换成 `out` 文件夹的绝对路径(从C或其他硬盘开始的路径). 例如我的是:
+   
+    ```
+    Out_Foloder_Abs_Path = C:\Users\testuser\Download\release\out
+    ```
+6. 把`yzanh.DSP.ReformColorDraw.cfg`复制到 `BepInEx\config` 文件夹.
+7. 把mod文件 `ReformColorDraw.dll` 复制到 `BepInEx\plugins`
 
 
 启动戴森球
