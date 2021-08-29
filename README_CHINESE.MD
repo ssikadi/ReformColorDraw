@@ -25,7 +25,7 @@
     ```shell
     .\PhotoProcess.exe .\azur.jpg 15
     ```
-    iter_num（15） 限制 kmeans 算法的循环次数上限. 如果代码一直跑不完，可以把15改小一些（比如说5)。理论上应该很快。
+    iter_num（15） 限制 kmeans 算法的循环次数上限. 如果代码一直跑不完，可以把15改小一些（比如说5)。`.net framework` is required here.
 
 4. `release\out` 文件夹内输出了4个东西. `preview_final.jpg` 是最终预览图。 `xml`文件不用碰。在绘制结束，存档完成，卸载好mod之前请不要删除`out`文件夹内的东西。
 5. 打开 `release\yzanh.DSP.ReformColorDraw.cfg`, 把 `C:/asdas` 替换成 `out` 文件夹的绝对路径(从C或其他硬盘开始的路径). 例如我的是:

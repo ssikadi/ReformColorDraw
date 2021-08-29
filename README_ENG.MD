@@ -24,7 +24,7 @@ Process an Image:
     ```shell
     .\PhotoProcess.exe .\azur.jpg 15
     ```
-    iter_num specifies the maximum iterations used to run kmeans algorithm. If it runs slow (though it should not), change it to a smaller number (around 5, maybe). This step is where `.net framework 4.6` or later version(s) is required.
+    iter_num specifies the maximum iterations used to run kmeans algorithm. If it runs slow (though it should not), change it to a smaller number (around 5, maybe). This step is where `.net framework` is required.
 3. Now, 4 files are created inside `release\out` folder. `preview_final.jpg` is what you expect to see inside the game. Please do not modify `out` folder until you finish drawing and uninstall the mod.
 4. Open the config file `release\yzanh.DSP.ReformColorDraw.cfg`, replace `C:/asdas` with the absolute path to `out` folder. Mine is:
    
