@@ -7,7 +7,7 @@ Before your start:
 ---
 1. make sure `.net framework 4.6` or later version(s) is installed in your OS. `.net framework 4.6` or later version(s) is installed by default by Win10 so in general, you do not need to install anything in this step.
 2. Prepare an image with good quality. My program accepts `.jepg`, `.jpg` and `.png`.
-3. Install BepinEX.
+3. Install BepInEX.
 4. Prepare a planet: flatten its terrain. The recetangle-area between `30N 0E` and `30S 110E` should be flattened and colored red. (The color itself is not important, either red or blue or whatever, but must be colored.) 
 
 
