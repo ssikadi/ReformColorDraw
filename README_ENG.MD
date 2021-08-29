@@ -50,7 +50,7 @@ After Drawing:
 
 Others:
 ---
-1. All source codes used by this mod are available [here](). You can compile `.exe` or `.dll` by yourself using these source codes.
+1. All source codes used by this mod are available [here](https://github.com/ssikadi/ReformColorDraw/tree/main/source_codes). You can compile `.exe` or `.dll` by yourself using these source codes.
 2. Please use this mod at your own risk. I have no idea if it will crash in later updates, and no idea if it affects your milkway data.
 3. Feel free to copy or modify the source codes.
 

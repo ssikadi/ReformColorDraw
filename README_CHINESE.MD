@@ -51,7 +51,7 @@ Out_Foloder_Abs_Path = C:\Users\testuser\Download\release\out
 
 其他：
 ---
-1. mod源代码在[这里]()。可以用来自己编译`.exe` or `.dll`。
+1. mod源代码在[这里](https://github.com/ssikadi/ReformColorDraw/tree/main/source_codes)。可以用来自己编译`.exe` or `.dll`。
 2. 使用mod有风险。不保证以后更新是否会崩溃。也不保证上传电量正常。
 3. 请随意使用或修改mod源代码。
 
