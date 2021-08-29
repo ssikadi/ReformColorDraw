@@ -1,6 +1,6 @@
 Intro:
 ---
-This mod draws any given picture. Demo as below:
+This mod draws any given picture from your PC to DSP (at res 160x300). Demo as below:
 ![](demo.jpg)
 
 
