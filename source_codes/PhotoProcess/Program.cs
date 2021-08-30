@@ -179,7 +179,6 @@ namespace PhotoProcess
                 }
             }
 
-            image.Dispose();
             destImage.Save(@"out\preview_resized.jpg", System.Drawing.Imaging.ImageFormat.Jpeg);
             return destImage;
         }
