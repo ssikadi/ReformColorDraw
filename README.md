@@ -1,7 +1,7 @@
 Intro:
 ---
-This mod draws any given picture from your PC to DSP (at res 160x300). Demo as below:
-![](demo.jpg)
+This mod draws any given picture from your PC to DSP (at res 160x300). Demo in this vedio:
+https://www.bilibili.com/video/BV1Kf4y1H71w
 
 
 Step by Step:
